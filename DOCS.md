@@ -3,7 +3,7 @@
 ## Installation
 
 ```sh
-npm install toyota-client-v2
+$ npm install @camrymps/toyota-client-v2
 ```
 
 ## Usage
@@ -11,7 +11,7 @@ npm install toyota-client-v2
 Setting up a client instance is simple:
 
 ```ts
-import { ToyotaClient } from "toyota-client-v2";
+import { ToyotaClient } from "@camrymps/toyota-client-v2";
 
 // Initialize the client
 const client: ToyotaClient = new ToyotaClient();
@@ -30,7 +30,7 @@ _Also see_: {@link VehicleResponseBody}
 This method returns a list of all Toyota vehicles and their associated properties.
 
 ```ts
-import { ToyotaClient, VehicleResponseBody } from "toyota-client-v2";
+import { ToyotaClient, VehicleResponseBody } from "@camrymps/toyota-client-v2";
 
 // Initialize the client
 const client: ToyotaClient = new ToyotaClient();
@@ -66,7 +66,7 @@ _Also see_: {@link VehicleResponseBody}
 This method returns a specific Toyota vehicle and its associated properties.
 
 ```ts
-import { ToyotaClient, VehicleResponseBody } from "toyota-client-v2";
+import { ToyotaClient, VehicleResponseBody } from "@camrymps/toyota-client-v2";
 
 // Initialize the client
 const client: ToyotaClient = new ToyotaClient();
@@ -105,7 +105,7 @@ _Also see_: {@link VehicleGradeResponseBody}
 This method returns a specific Toyota vehicle's grade and its associated properties.
 
 ```ts
-import { ToyotaClient, VehicleGradeResponseBody } from "toyota-client-v2";
+import { ToyotaClient, VehicleGradeResponseBody } from "@camrymps/toyota-client-v2";
 
 // Initialize the client
 const client: ToyotaClient = new ToyotaClient();
@@ -145,7 +145,7 @@ _Also see_: {@link DealershipResponseBody}
 This method returns Toyota dealerships within a certain region (region name or zip code, see {@link Region} type alias).
 
 ```ts
-import { ToyotaClient, DealershipResponseBody } from "toyota-client-v2";
+import { ToyotaClient, DealershipResponseBody } from "@camrymps/toyota-client-v2";
 
 // Initialize the client
 const client: ToyotaClient = new ToyotaClient();
@@ -239,7 +239,7 @@ The example below makes a request for a specific vehicle, uses an _asynchronous_
 Most errors that occur will be an instance of [Zod's ZodError](https://zod.dev/?id=error-handling), which is a subclass of Error. The *ZodError* class is exported in this package for convenience. The example below checks the instance of the error before determining how to handle it:
 
 ```ts
-import { ToyotaClient, ZodError } from "toyota-client-v2";
+import { ToyotaClient, ZodError } from "@camrymps/toyota-client-v2";
 
 ...
 
@@ -262,8 +262,8 @@ import { ToyotaClient, ZodError } from "toyota-client-v2";
 
 To run the tests, simply issue the following command:
 
-```javascript
-npm test
+```sh
+$ npm test
 ```
 
 ## Disclaimer

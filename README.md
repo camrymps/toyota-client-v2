@@ -2,6 +2,14 @@
 
 A TypeScript-native, unofficial API client that retrieves data on Toyota vehicles, directly from toyota.com.
 
+## Quickstart
+
+```sh
+$ npm install @camrymps/toyota-client-v2
+```
+
+## Documentation
+
 Documentation is located [here](http://camrymps.github.io/toyota-client-v2).
 
 ## Important note
