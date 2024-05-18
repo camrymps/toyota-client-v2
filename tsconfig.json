@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "types": ["jest"],
+    "allowJs": false,
+    "checkJs": false,
+    "declaration": true,
+    "target": "ES2015",
+    "module": "ESNext",
+    "esModuleInterop": true,
+    "moduleResolution": "Bundler",
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "strictNullChecks": true // For Zod. See https://github.com/colinhacks/zod/issues/121.
+  },
+  "include": ["src/**/*"],
+  "exclude": ["coverage", "docs", "dist", "node_modules"]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "toyota-client-v2",
+  "version": "1.0.9",
+  "description": "A TypeScript-native, unofficial API client that retrieves data on Toyota vehicles, directly from toyota.com.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "docs": "npx typedoc"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "toyota",
+    "car",
+    "cars",
+    "vehicle",
+    "api",
+    "client"
+  ],
+  "type": "module",
+  "author": "Michael Scott",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "lodash-es": "^4.17.21",
+    "user-agents": "^1.1.197",
+    "zod": "^3.23.6"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.24.5",
+    "@babel/preset-typescript": "^7.24.1",
+    "@types/axios": "^0.14.0",
+    "@types/node": "^20.12.11",
+    "jest": "^29.7.0",
+    "jest-extended": "^4.0.2",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typedoc": "^0.25.13",
+    "typedoc-material-theme": "^1.0.2",
+    "typescript": "^5.4.5"
+  }
+}

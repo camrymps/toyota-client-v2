@@ -1,0 +1,15 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPoints": ["./src"],
+  "out": "docs",
+  "excludeExternals": true,
+  "navigation": {
+    "includeCategories": true,
+    "includeGroups": true,
+    "includeFolders": true
+  },
+  "plugin": ["typedoc-material-theme"],
+  "themeColor": "#e10a1d", // Toyota Red
+  "readme": "DOCS.md",
+  "includeVersion": true
+}
